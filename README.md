@@ -13,7 +13,7 @@ A simple "Hello World" web application containerized using Docker and deployed o
 
 1. **Build the Docker Image:**
    ```bash
-   docker build -t hello-world-app:latest .
+   docker build -f docker/Dockerfile -t hello-world-app:latest .
 2. **Run the Docker Image:**
    ```bash
    docker run -p 8080:8080 hello-world-app:latest
